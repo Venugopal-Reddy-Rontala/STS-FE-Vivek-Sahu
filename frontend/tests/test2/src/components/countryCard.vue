@@ -14,7 +14,7 @@ async function getCountry(){
 
         const data = await res.json();
 
-        console.log(data.object)
+        console.log(data)
 
         countries.value = data
 
